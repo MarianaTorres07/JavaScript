@@ -40,7 +40,7 @@ console.log("El valor 13 es menor que el valor 25 " + (numero1 < numero2));
 console.log("El valor 13 es menor que el valor 25 " + (numero1 > numero2));
 
 //Operador mayor o igual que
-console.log("El valor 25 es mayor o igual que el valor 25 " + (numero2 <= numero3));
+console.log("El valor 25 es mayor o igual que el valor 25 " + (numero2 >= numero3));
 
 //Operador de Igualdad
 console.log("El valor 25 es igual que el valor 25 " + (numero2 == numero3));
@@ -162,7 +162,7 @@ console.log("Division: " , (valor1 / valor2));
 console.log("Residuo: " , (valor1 % valor2));
 console.log("Exponenciacion: " , (valor1 ** valor2));
 console.log("Incremento: " , (++valor1));
-console.log("Incremento: " , (--valor2));
+console.log("Decremento: " , (--valor2));
 
 console.log(valor1);
 

@@ -55,10 +55,10 @@ Utilizamos esta instruccion o sentencia para especificar que un bloque de codigo
 
 
 if (condition) {
-    //Este bloque se ejecuta si la condicion es verdadera. 
+    /Este bloque se ejecuta si la condicion es verdadera. 
     
 } else {
-    //Este bloque se ejecuta si la condicion es falsa.
+    /Este bloque se ejecuta si la condicion es falsa.
 }
 
 */ 
@@ -70,11 +70,11 @@ let edadParaEntrarALaFiesta = 18;
 
 
 if (edad < edadParaEntrarALaFiesta) {
-    //Se ejecuta cuando es verdaro (Que Axel es menor a la edad permitido)
+    /Se ejecuta cuando es verdaro (Que Axel es menor a la edad permitido)
     console.log("Lo siento, no puedes entrar a la fiesta");
     
 } else {
-    //Se ejecuta cuando es falso (que Axel es mayor a la edad permitida)
+    /Se ejecuta cuando es falso (que Axel es mayor a la edad permitida)
     console.log("Felicidades, tienes la edad permitida para entrar a la fiesta");
     
 }
@@ -114,7 +114,8 @@ Se pueden anidar x cantidad de else if entre el if que evalua la condicion inici
 
 */
 
-let hora = prompt("Ingrese la hora actual");
+
+/* let hora = prompt("Ingrese la hora actual");
 
 if(hora < 12){
     console.log("Buenos dias");
@@ -123,3 +124,78 @@ if(hora < 12){
 }else{
     console.log("Buenas noches, vamos a mimir");
 }
+ */
+
+
+
+/* Switch
+
+Esta condicional nos permite hacer multiples operaciones y tomar decisiones en funcion de distintos estados de las variables.
+
+Evalua una expresion comparando el valor de un dato o variable, y ejecutando la instruccion asociada a ese caso.
+
+-case: Evalua el caso o condicion asociado que dispara un bloque de codigo.
+-break: Termina el proceso sin que tengamos que pasar por tdas las iteraciones o casos.
+- default: Termina el proceso en caso de que ninguna de las evaluaciones sea la correcta (similar al else) 
+
+
+switch (expresion o condicion){
+    case valor1:
+        /Codigo que se ejecuta si la condicion es igual a valor1. 
+    break;
+
+    case valor2:
+        /Codigo que se ejecuta si la condicion es igual a valor2
+    break;
+
+    case valor3:
+        /Codigo que se ejecuta si la condicion es igual a valor3
+    break;
+
+    case valor4:
+        /Codigo que se ejecuta si la condicion es igual a valor4
+    break;
+
+    case valor5:
+        /Codigo que se ejecuta si la condicion es igual a valor5
+    break;
+
+    default:
+        /Ingresaste un piso incorrecto (un bloque de codigo que se ejecuta si no se cumple con ninguna de las condiciones anteriores)
+}
+
+
+*/ 
+
+
+//Ejemplo de Switch
+let pisoDestino = prompt("Ingresa el piso al que quieras ir (1 al 5) ");
+
+switch(pisoDestino){
+    //Para jugar con nuestros casos, el tipo de dato debe coincidir para que se ejecute correctamente.
+
+    case "1":
+        console.log("Vamos a piso 1 (suena musica de elevador de fondo) ");
+        break;
+
+    case "2":
+        console.log("Vamos a piso 2 (suena musica de elevador de fondo) ");
+        break;
+
+    case "3":
+        console.log("Vamos a piso 3 (suena musica de elevador de fondo) ");
+        break; 
+    
+    case "4":
+        console.log("Vamos a piso 4 (suena musica de elevador de fondo) ");
+        break;  
+
+    case "5":
+        console.log("Vamos a piso 5 (suena musica de elevador de fondo) ");
+        break;
+
+    default:
+        console.log("Ingresaste un piso que no es valido ");
+        break;
+}
+
