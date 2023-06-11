@@ -120,8 +120,8 @@ console.log("Las galletas estan listas");
 //For (para)
 
 /*
-    Se utiliza cuando se conoce el numero exacto de iteraciones que se realizaron. Consiste en tres partes: iniciaizacion, condicion y expresion final.
-    El bloque de coigo se ejecuta mientras la condicion sea verdadera, y despues de cada iteracion se ejecuta la exprsion final.
+    Se utiliza cuando se conoce el numero exacto de iteraciones que se realizaron. Consiste en tres partes: inicializacion, condicion y expresion final.
+    El bloque de codigo se ejecuta mientras la condicion sea verdadera, y despues de cada iteracion se ejecuta la expresion final.
 
     for(inicializacion; condicion; expresion de iteracion){
         /Bloque de codigo a ejecutar
@@ -146,7 +146,7 @@ var tiempoPorPaso = [15, 10, 20];
 
 //En el ciclo for, para cada paso, se tiene un tiempo estimado.
 
-//Para cada paso de la lsita, voy a tomar en cuenta el tiempo que se necesita parahacerlo. Cada que vaya cumpliendo un paso, voy incrementando mi variable paso  para saber cuanas pasos me quedan pendientes. Cuando ya no haya pasos, termino el proceso. 
+//Para cada paso de la lsita, voy a tomar en cuenta el tiempo que se necesita para hacerlo. Cada que vaya cumpliendo un paso, voy incrementando mi variable paso para saber cuantos pasos me quedan pendientes. Cuando ya no haya pasos, termino el proceso. 
 for(var paso=0; paso < pasosDeReceta.length; paso++){
     
     console.log("Realizando paso " + pasosDeReceta[paso]);
